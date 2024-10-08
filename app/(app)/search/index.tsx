@@ -22,6 +22,7 @@ renderItem={({item}) =>(
         <Text>$ {item.final_price}</Text>
     </View>
     </Pressable>
+    
     )}
 />
     </View>

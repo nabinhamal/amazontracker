@@ -1,6 +1,7 @@
-import { router, Stack } from 'expo-router';
+import { Link, router, Stack } from 'expo-router';
 import { useState } from 'react';
 import {  Pressable, Text, TextInput, View } from 'react-native';
+import { supabase } from '~/utils/supabase';
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <Text>Search</Text>
      </Pressable>
      </View>
+    
     </>
   );
 }
