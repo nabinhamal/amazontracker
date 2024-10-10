@@ -9,7 +9,7 @@ import { createClient } from "jsr:@supabase/supabase-js@2";
 console.log("Hello from Functions!");
 
 // curl
-// -H "Authorization: Bearer ""
+// -H "Authorization: Bearer 6aa19c1e-d9f9-4209-9854-9871a293340b"
 // -H "Content-Type: application/json"
 // -d '[{"keyword":"X-box","url":"https://www.amazon.com","pages_to_search":1}]'
 // "https://api.brightdata.com/datasets/v3/trigger?dataset_id=gd_lwdb4vjm1ehb499uxs&limit_multiple_results=10"
